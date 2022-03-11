@@ -24,7 +24,7 @@ struct ContentView: View {
             //Add your TextField Here ضيفوه تحت هالسطر
             //.textFieldStyle(.roundedBorder) < عشان تعدلون على شكله تقدرون تضيفون
             TextField("type your username" , text : $username)
-            textFieldStyle(.roundedBorder)
+                .textFieldStyle(.roundedBorder)
         }.padding()
     }
 }
